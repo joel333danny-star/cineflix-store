@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="480" viewBox="0 0 320 480">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#dc2626"/>
+    </linearGradient>
+    <radialGradient id="r" cx="50%" cy="25%" r="70%">
+      <stop offset="0" stop-color="rgba(255,255,255,.55)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="320" height="480" fill="url(#g)"/>
+  <circle cx="250" cy="70" r="100" fill="url(#r)" opacity=".65"/>
+  <path d="M0 410 C80 350, 140 460, 320 365 L320 480 L0 480 Z" fill="rgba(0,0,0,.34)"/>
+  <text x="160" y="52" text-anchor="middle" font-family="Arial Black, Arial" font-size="22" fill="#ffcc00">CINEFLIX</text>
+  <rect x="26" y="78" width="268" height="338" rx="18" fill="rgba(0,0,0,.18)" stroke="rgba(255,255,255,.35)"/>
+  <circle cx="160" cy="158" r="44" fill="rgba(255,255,255,.16)"/>
+  <polygon points="150,136 150,180 185,158" fill="white" opacity=".86"/>
+  <text x="160" y="230" text-anchor="middle" font-family="Arial Black, Arial" font-size="34" fill="white">Spider-Man
+Homecoming</text>
+  <text x="160" y="398" text-anchor="middle" font-family="Arial" font-size="16" fill="rgba(255,255,255,.86)">Película digital</text>
+  <rect x="22" y="22" width="46" height="22" rx="5" fill="#ffcc00"/>
+  <text x="45" y="38" text-anchor="middle" font-family="Arial Black, Arial" font-size="12" fill="#111">UHD</text>
+</svg>
